@@ -1,0 +1,19 @@
+{
+    "name": "modeste/greeting",
+    "description": "This is a simple world example",
+    "authors": [
+        {
+            "name": "Poudjouo Yila Modeste",
+            "email": "poudjouy@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+        },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
