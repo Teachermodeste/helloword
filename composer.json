@@ -9,11 +9,21 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.5.0",
+        "phpunit/php-timer": "^2.0@dev"
         },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "HelloWorld": "src/"
-        }
+            
+        },
+        "classname": {
+      "PHP_Timer": "src/SebastianBergmann/Timer/Timer"
+    },
+        "scripts": {
+  "test": ["php tests/test.php", "echo Hello"]},
+
+  
     }
+
 }
